@@ -1,7 +1,4 @@
 import { useState, useEffect } from "react"
-// import { Search } from "lucide-react"
-// import ClueContainer from "./components/clueContainer.jsx"
-// import SearchForm from "./components/searchForm.jsx"
 import MainContainer from "./components/mainContainer.jsx"
 import Header from "./components/header.jsx"
 import { getMovieById } from "../src/services/api.js"
@@ -39,7 +36,13 @@ function App() {
 			<main>
 				{loading && <h2>Loading...</h2>}
 				{error && <h2>Error loading movie</h2>}
-				{movie && <h2>{movie.title}</h2>}
+				{movie && <p>{movie.title}</p>}
+				{movie && <p>{movie.runtime} minutes</p>}
+				{movie && <p>${movie.budget} dollars</p>}
+				{movie && <p>{movie.release_date}</p>}
+				{movie && <p>{movie.genres[0].name}</p>}
+				{movie && <p>{movie.origin_country}</p>}
+				{movie && <p>{movie.tagline}</p>}
 			</main>
 		</>
 	)

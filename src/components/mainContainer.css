@@ -1,8 +1,8 @@
 .main-content {
-	border: solid 1px #000;
+	/* border: solid 5px #000; */
 	border-radius: 1em;
 	padding: 2em;
-	background-color: aqua;
+	background-color: #191738;
 }
 
 h2 {

@@ -23,3 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+#Non-essential files
+SCR-*.png
+Untitled*.pdf
+Untitled*.docx
