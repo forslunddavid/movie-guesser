@@ -1,0 +1,13 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+	color: #0d0d0d;
+}
+
+@keyframes logo-spin {
+}
+
+@media (prefers-reduced-motion: no-preference) {
+}

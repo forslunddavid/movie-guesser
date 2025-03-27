@@ -1,0 +1,16 @@
+.main-content {
+	border: solid 1px #000;
+	border-radius: 1em;
+	padding: 2em;
+	background-color: aqua;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+.number-of-guesses {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 0;
+}

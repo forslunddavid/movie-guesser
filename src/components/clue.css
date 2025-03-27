@@ -1,0 +1,57 @@
+.clue-container {
+	display: flex;
+	justify-content: center;
+}
+
+.clue-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 1em;
+}
+
+.clue-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.clue {
+	width: 5em;
+	height: 5em;
+	border-radius: 1em;
+	background-color: #fff2b8;
+	border: 2px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clue span {
+	font-size: 2em;
+}
+
+.clue-detail {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	margin-top: 0.25em;
+}
+
+.correct {
+	border-color: green;
+	color: green;
+}
+
+.incorrect {
+	border-color: red;
+	color: red;
+}
+
+.close {
+	border-color: yellow;
+	color: yellow;
+}
