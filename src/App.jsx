@@ -13,7 +13,7 @@ function App() {
 		async function fetchMovie() {
 			try {
 				const movieData = await getMovieById(550)
-				console.log(movieData, "movie")
+				// console.log(movieData, "movie")
 				setMovie(movieData)
 			} catch (err) {
 				console.log(err, "failed to fetch movie")
@@ -30,7 +30,7 @@ function App() {
 		<>
 			<Header />
 			<MainContainer />
-			<header>
+			{/* <header>
 				<h1>MovieGrid</h1>
 			</header>
 			<main>
@@ -43,7 +43,7 @@ function App() {
 				{movie && <p>{movie.genres[0].name}</p>}
 				{movie && <p>{movie.origin_country}</p>}
 				{movie && <p>{movie.tagline}</p>}
-			</main>
+			</main> */}
 		</>
 	)
 }
