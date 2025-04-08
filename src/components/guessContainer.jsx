@@ -1,5 +1,6 @@
 import { ArrowUp, ArrowDown } from "lucide-react"
 import "./guessContainer.css"
+import "./clue.css"
 
 const GuessContainer = ({ guess, index }) => {
 	// Handle edge cases where clues might be missing
