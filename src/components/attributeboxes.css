@@ -1,0 +1,27 @@
+.box {
+	padding: 1em;
+	border-radius: 0.4em;
+	width: 5em;
+}
+
+.correct-attribute {
+	background-color: #008000;
+	color: #f0f0f0;
+}
+
+.incorrect-attribute {
+	background-color: #ff0000;
+	color: #f0f0f0;
+}
+
+.close-attribute {
+	background-color: #f5c518;
+	color: #f0f0f0;
+}
+
+.attribute-boxes {
+	display: flex;
+	justify-content: center;
+	gap: 0.5em;
+	margin-top: 0.5em;
+}

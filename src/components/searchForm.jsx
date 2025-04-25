@@ -41,7 +41,7 @@ const SearchForm = ({ onSelectMovie, disabled = false }) => {
 				setLoading(true)
 				const response = await searchMovies(searchValue)
 				const data = await response.json()
-				setSuggestions(data.results.slice(0, 8)) // Limit to 8 suggestions
+				setSuggestions(data.results.slice(0, 4))
 				setShowSuggestions(true)
 			} catch (error) {
 				console.error("Failed to fetch movie suggestions:", error)

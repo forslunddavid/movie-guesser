@@ -14,7 +14,7 @@ const MainContainer = () => {
 	const [loading, setLoading] = useState(true)
 	const [dailyMovieId, setDailyMovieId] = useState(null)
 	const [nextRefresh, setNextRefresh] = useState(null)
-	const MAX_GUESSES = 5
+	const MAX_GUESSES = 10
 
 	// Load the daily movie ID on mount and when the date changes
 	useEffect(() => {
