@@ -19,10 +19,12 @@
 	position: relative;
 }
 
-.info {
+.info-button-container {
 	display: flex;
 	justify-content: center;
 	position: absolute;
 	right: 0;
 	top: 0;
+	z-index: 10000;
+	background-color: #ffffff;
 }

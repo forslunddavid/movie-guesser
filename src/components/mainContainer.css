@@ -21,6 +21,7 @@
 	border-radius: 20px;
 	margin-bottom: 1.5em;
 	animation: pulse 2s infinite;
+	z-index: 1;
 }
 
 @keyframes pulse {

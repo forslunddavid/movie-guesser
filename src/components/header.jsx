@@ -15,9 +15,9 @@ const Header = () => {
 		<header className="header">
 			<div className="header-container">
 				<h1>Header!</h1>
-				<div className="info">
+				<div className="info-button-container">
 					<CircleHelp onClick={handleInfoClick} />
-					{openInfo && <Info />}
+					{openInfo && <Info onClose={() => setOpenInfo(false)} />}
 				</div>
 			</div>
 		</header>
