@@ -6,7 +6,6 @@ import Close from "./close.jsx"
 const Attributes = () => {
 	return (
 		<>
-			<h3>Debut Album</h3>
 			<p>The year the movie was released</p>
 			<div className="attribute-boxes">
 				<Incorrect /> <Close />
