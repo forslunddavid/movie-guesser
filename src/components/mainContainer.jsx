@@ -32,7 +32,7 @@ const MainContainer = () => {
 				// Fetch the movie details
 				const movieData = await getMovieById(movieId)
 				setTargetMovie(movieData)
-
+				console.log("Today's movie title:", movieData.title)
 				// Calculate time until next refresh
 				const secondsToNextDay = getSecondsUntilNextDay()
 				setNextRefresh(new Date(Date.now() + secondsToNextDay * 1000))
