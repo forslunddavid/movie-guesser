@@ -13,9 +13,7 @@ export async function getMovieById(movieId) {
 				method: "GET",
 				headers: {
 					"Content-Type": "application/json",
-					Authorization: `Bearer ${
-						import.meta.env.VITE_API_READ_ACCESS_TOKEN
-					}`,
+					Authorization: `Bearer ${import.meta.env.VITE_API_READ_ACCESS_TOKEN}`,
 				},
 			}
 		)
