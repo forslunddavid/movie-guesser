@@ -2,7 +2,10 @@
 	display: flex;
 	max-width: 500px;
 	width: 100%;
-	top: 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	z-index: 20000;
 }
 
 .info-icon {
@@ -25,6 +28,48 @@
 }
 
 .info-container {
-	background-color: #ffffff1a;
-	z-index: 10;
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	border-radius: 4px;
+	z-index: 20000;
+	position: relative;
+	width: 100%;
+	min-width: 300px;
+}
+
+.info-buttons {
+	display: flex;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+.info-container button {
+	background-color: #f0f0f0;
+	border: none;
+	padding: 0.5rem 1rem;
+	margin: 0.5rem 0;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.info-container button:hover {
+	background-color: #e0e0e0;
+}
+
+.info-container button.active {
+	background-color: #f5c518;
+}
+
+.info-container button.active:hover {
+	background-color: #e0b416;
+}
+
+.info-content {
+	margin-top: 1rem;
+	padding: 1rem;
+	background-color: #f9f9f9;
+	border-radius: 4px;
 }
